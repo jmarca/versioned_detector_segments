@@ -1,0 +1,22 @@
+{
+  "name": "versioned_detector_segments",
+  "version": "1.0.0",
+  "description": "sqitch to deploy the versioned detector segments table",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "pgtap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarca/versioned_detector_segments.git"
+  },
+  "author": "James E. Marca",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jmarca/versioned_detector_segments/issues"
+  },
+  "homepage": "https://github.com/jmarca/versioned_detector_segments#readme"
+}
