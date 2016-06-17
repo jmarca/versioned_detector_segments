@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jmarca/versioned_detector_segments/issues"
   },
-  "homepage": "https://github.com/jmarca/versioned_detector_segments#readme"
+  "homepage": "https://github.com/jmarca/versioned_detector_segments#readme",
+  "dependencies": {
+    "tempseg_schema": "github:jmarca/tempseg_schema"
+  }
 }
