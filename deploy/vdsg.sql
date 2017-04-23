@@ -24,10 +24,7 @@ CREATE TABLE versioned_detector_segment_geometry (
     components text[] NOT NULL,
     refnum integer,
     direction text,
-    seggeom public.geometry,
-    CONSTRAINT enforce_dims_seggeom CHECK ((public.st_ndims(seggeom) = 2)),
-    CONSTRAINT enforce_geotype_seggeom CHECK (((public.geometrytype(seggeom) = 'LINESTRING'::text) OR (seggeom IS NULL))),
-    CONSTRAINT enforce_srid_seggeom CHECK ((public.st_srid(seggeom) = 4326))
+    seggeom public.geometry(LINESTRING,4326)
 );
 
 --
